@@ -1,0 +1,91 @@
+/*CSS - Écriture Zen - ASSASSIN Chloé 2020*/
+
+* {
+  box-sizing: border-box;
+  font-family: 'Indie Flower', cursive;
+}
+
+body{
+    background: url(../img/tree.jpg) no-repeat center fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+    z-index: -1;
+}
+
+main{
+    display: flex;
+    justify-content:center;
+    width:100%;
+    margin:auto;
+    font-size:1.5em;
+}
+
+header{
+       position: sticky;
+       top:0;
+}
+
+ul{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+li{
+    color:#fcefd2;
+}
+
+
+button {
+	background-color: black;
+	border-radius:28px;
+	border:1px solid #ffffff;
+	cursor:pointer;
+	text-decoration:none;
+    color: #fcefd2
+}
+.clic{
+    display: none;
+}
+.clic:hover {
+	background-color:#fcefd2;
+}
+.clic:active {
+	position:relative;
+	top:1px;
+}
+
+label{
+    font-family: 'Indie Flower', cursive;
+}
+
+input[type=checkbox]:checked{
+    background: black;
+}
+textarea{
+    width:80%;
+    margin:20px auto;
+    background: url(img/fond.png);
+    border: 1px solid black;
+    color: #fcefd2;
+    float: left;
+    min-height: 500px;
+    outline: none;
+     
+}
+
+footer{
+     position: sticky;
+     bottom:0;
+     text-align: center;
+}
+
+footer p{
+    color:#777777;
+}
+

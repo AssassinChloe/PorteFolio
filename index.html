@@ -1,0 +1,353 @@
+﻿<!DOCTYPE html>
+
+<html lang="fr" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta name="description" content="Ceci est mon CV en ligne (Chloé Assassin) et Portefolio de mes créations de développeuse - intégratrice web dans le cadre de ma recherche de projets en développement et intégration Web. Il contient du HTML, CSS, bootstrap, JS, Jquery">
+    <meta name="author" content="Assassin Chloé">
+    <title>Portefolio Chloé Assassin - Développement et Intégration Web</title>
+    <link rel="icon" type="image/png" href="img/favicon.png"/>
+    <link rel="stylesheet" href="dist/bootstrap/css/bootstrap.min.css"><!--Bootstrap v4.4.1 -->
+    <link rel="stylesheet" href="dist/jquery_ui/jquery-ui.min.css"><!-- jQuery UI 1.12.1-->
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/718c8826aa.js" crossorigin="anonymous"></script>
+    <script src="dist/jquery/jquery.min.js"></script><!--jQuery 3.4.1-->
+    <script src="dist/bootstrap/js/bootstrap.min.js"></script>
+    <script src="dist/jquery_ui/jquery-ui.min.js"></script>
+    
+</head>
+<body>
+  <div class="container">
+      
+          <!--HEADER-->
+    <div class="row header align-items-center">
+      <div class="col-2 p-2">
+        <img src="img/imgsign.png" alt="Photo d'identité" class="img-fluid">
+      </div><!--fermeture col2 photo-->
+      <div class="col-9 text-center">
+        <h1 class="headerTitle">Chloé Assassin</h1>
+        <h3 class="headerTitle">Développeuse Intégratrice WEB</h3>
+      </div><!--fermeture col9 bandeau-->
+      <div class="col-1 p-1">
+        <a href="https://www.linkedin.com/in/assassinchloe/" target="_blank"><i class="fab fa-linkedin" ></i></a>
+      </div> <!--fermeture col2 icones-->
+    </div> <!--fermeture row header-->
+  
+          <!--CONTENU DE LA PAGE-->
+
+          <!--Navigation-->
+    <div class="row nav">
+          <div class="menu col-12">
+            <label for="mobile"><i class="fas fa-bars"></i></label>
+            <input type="checkbox" id="mobile" role="button">
+            <ul >
+              <li class="deroulant onglet1tab"><a href="#">Présentation</a></li>
+              <li class="deroulant onglet2tab"><a href="#CurriculumVitae">Curriculum Vitae</a></li>
+              <li class="deroulant onglet3tab"><a href="#FrontEnd">Front-End</a></li>
+              <li class="deroulant onglet4tab"><a href="#BackEnd">Back-End</a></li>
+              <li class="deroulant onglet5tab"><a href="#WP_UIUX">WordPress - UI/UX</a></li>
+              <li class="deroulant onglet6tab"><a href="#Loisir">Loisirs</a></li>
+              <li class="deroulant onglet7tab"><a href="#Contact">Me contacter</a></li>
+            </ul>
+          </div><!--fermeture menu col-12-->
+    </div> <!--Fermeture row nav-->
+
+    <a href="#"><i id="boutonRetour" class="fas fa-arrow-circle-up"></i></a>
+
+          <!-- ONGLET 1 - PRÉSENTATION --> 
+    <div class="row text-center my-3 section1">
+      <div class="col-12">
+                  <hr>
+                  <p class="text-justify p-3">Chloé ASSASSIN, Développeuse Web. Férue d’aquarelle, je suis tombée dans le codage par hasard et me suis découvert une passion. J’ai tout d’abord manipulé le C# en autodidacte (réalisation d’un traitement de texte, RPG console), je suis maintenant formée au front-end (HTML5, CSS3, Javascript, PHP, MySQL, Wordpress, JQuery, Bootstrap)</p>
+                  <p class="text-justify p-3">Forte de ces compétences techniques et sensible à l’UI/UX, c’est également toutes mes qualités humaines (écoute active, adaptabilité, organisation, concentration, créativité, détermination…) aiguisées au fil de mes emplois précédents, que je mets en oeuvre pour un développement web de qualité, intelligent, humain et accessible.</p>
+                  <hr>
+            </div> <!--fermeture col-12 onglet1-->
+    </div><!--fermeture row onglet1-->
+
+          
+
+            <!--ONGLET 2 - CURRICULUM VITAE-->
+          <div id="CurriculumVitae"></div> <!--ancre-->
+
+          <div class="row text-center my-3 section2" >
+            <div class="col-12">
+              <div class="row title">
+                <div class="col-12">
+                  <h2 class="my-3">Curriculum Vitae</h2>
+                </div><!--fermeture col-12 title-->
+              </div><!--fermeture row title-->
+              <div class="row content">
+                <div class="col-md-9">
+                  <embed class="cv" src="media/CV_AssassinChloe.pdf" type="application/pdf">
+                  <hr>
+                </div><!--fermeture col-md-6 CV-->
+                
+                <div class="col-md-3">
+                  <p class="pt-2 text-left">Anglais</p>
+                  <div id="Anglais" class="progressbar"></div>
+                  <p class="pt-2 text-left">HTML</p>
+                  <div id="Html" class="progressbar"></div>
+                  <p class="pt-2 text-left">CSS</p>
+                  <div id="Css" class="progressbar"></div>
+                  <p class="pt-2 text-left">JavaScript</p>
+                  <div id="Js" class="progressbar"></div>
+                  <p class="pt-2 text-left">PHP</p>
+                  <div id="Php" class="progressbar"></div>
+                  <p class="pt-2 text-left">MySQL</p>
+                  <div id="Mysql" class="progressbar"></div>
+                  <p class="pt-2 text-left">Photoshop</p>
+                  <div id="Photoshop" class="progressbar"></div>
+                </div><!--fermeture col-md-6 progressbar-->
+              </div><!--fermeture row content-->
+            </div><!--fermeture col-12 section-->
+          </div><!--fermeture row section onglet2-->
+
+
+
+
+          <!--ONGLET 3 - FRONT-END-->
+          <div id="FrontEnd"></div> <!--ancre-->
+
+          <div class="row text-center my-3 section3" >
+            <div class="col-12">
+              <div class="row title">
+                <div class="col-12">
+                  <h2 class="my-3">Front-End</h2>
+                </div><!--fermeture col-12 title-->
+              </div><!--fermeture row title-->
+              <div class="row content">
+                <div class="col-md-6">
+                  <h5>Écriture Zen</h5>
+                  <figure>
+                    <a href="ecriture/index.html" target="_blank"><img src="img/ecriturezen.jpg" alt="Screenshot de la page : http://assassinchloe.fr/ecriture/" class="img-fluid p-2"></a>
+                    <figcaption><a href="ecriture/index.html" target="_blank">Testez-moi !</a></figcaption>
+                  </figure>
+                  <hr>
+                  <p class="text-justify p-3">Projet personnel : Page Web faite pour écrire dans un cadre relaxant et épuré au doux son d'un orage et d'une machine à écrire. Cela m'a permis de voir l'intégration d'un média audio dans une page web ainsi que des fonctions JavaScript.
+                  </p>
+                  <hr>
+                </div><!--fermeture col6-->
+                <div class="col-md-6">
+                  <h5>Carnets de Voyage</h5>
+                  <figure>
+                    <a href="http://assassinchloe.fr/carnetvoyage/" target="_blank"><img class="img-fluid p-2" src="img/carnetvoyage.jpg" alt="Screenshot de la page : http://assassinchloe.fr/carnetvoyage/"></a>
+                    <figcaption><a href="http://assassinchloe.fr/carnetvoyage/" target="_blank">Testez-moi !</a></figcaption>
+                  </figure>
+                  <hr>
+                  <p class="text-justify p-3">Travail pratique HTML-CSS dans le cadre de ma formation à l'IFOCOP d'Eragny : Parcours Professionnalisant Développeur Intégrateur (PPDI) destiné à mettre en pratique notre apprentissage de Bootstrap 4.
+                  </p>
+                  <hr>
+                </div><!--fermeture col6-->
+              </div><!--fermeture row content-->
+            </div><!--fermeture col-12 section onglet3-->
+          </div><!--fermeture row section onglet3-->
+
+
+
+          <!--ONGLET 4 - BACK-END-->
+          <div id="BackEnd"></div> <!--ancre-->
+          <div class="row text-center my-3 section4" >
+            <div class="col-12">
+              <div class="row title">
+                <div class="col-12">
+                  <h2 class="my-3">Back-End</h2>
+                </div><!--fermeture col-12 title-->
+              </div><!--fermeture row title-->
+              <div class="row content">
+                <div class="col-md-6">
+                  <h5>PHP</h5>
+                  <img class="img-fluid p-2" src="img/patisseriePHP.jpg" alt="screeshot d'une base de donnée et du tableau dynamique associé">
+                  <hr>
+                  <p class="text-justify p-3">Lors de la formation, nous avons eu l'occasion de reconstruire en PHP un site précédemment fait en HTML et CSS et par la même occasion nous avons ainsi pu créer des bases de données afin d'avoir un affichage des pages dynamique et modulable facilement.
+                  </p>
+                  <hr>
+                </div><!--fermeture col6-->
+                <div class="col-md-6">
+                  <h5>Titre</h5>
+                  <img class="img-fluid p-2" src="https://i.picsum.photos/id/999/300/300.jpg" alt="picsum">
+                  <hr>
+                  <p class="text-justify p-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit id inventore ullam cupiditate commodi rerum, quasi voluptatibus eaque voluptatem ex dolorum eos in dolor alias est vero reiciendis earum vel!
+                  </p>
+                  <hr>
+                </div><!--fermeture col6-->
+              </div><!--fermeture row content-->
+            </div><!--fermeture col-12 section onglet4-->
+          </div><!--fermeture row section onglet4-->
+
+
+
+          <!--ONGLET 5 - WORDPRESS UIUX-->
+          <div id="WP_UIUX"></div> <!--ancre-->
+          <div class="row text-center my-3 section5" >
+            <div class="col-12">
+              <div class="row title">
+                <div class="col-12">
+                  <h2 class="my-3">WordPress - UI/UX</h2>
+                </div> <!--fermeture col-12 title-->
+              </div><!--fermeture row title-->
+              <div class="row content">
+                <div class="col-md-6">
+                  <h5>Création d'un thème Wordpress</h5>
+                  <img class="img-fluid p-2" src="img/Wordpress.jpg" alt="screeshots d'un thème wordpress">
+                  <hr>
+                  <p class="text-justify p-3">Dans le cadre de ma formation à l'IFOCOP, nous avons fait un TP nous demandant de créer un site wordpress portant sur les évolutions de l'UI/UX design dans le temps en créant un thème nous même. J'ai pu ainsi apprendre à intégrer un menu burger responsive sur un thème WordPress ainsi que des animation CSS.
+                  </p>
+                  <hr>
+                </div><!--fermeture col6-->
+                <div class="col-md-6">
+                  <h5>Benchmark</h5>
+                  <figure>
+                    <a href="https://docs.google.com/presentation/d/e/2PACX-1vQTEcJQwJB1W4OWLZR1gdVeKRpqP517nR9pbTwgS-iN83Fl0gQw_Z32aUMfbRaPstwyatM4qrflCD53/pub?start=false&loop=false&delayms=5000" target="_blank"><img class="img-fluid p-2" src="img/UIUX.jpg" alt="screeshot d'un benchmark sectoriel et de moonboard"></a>
+                    <figcaption><a href="https://docs.google.com/presentation/d/e/2PACX-1vQTEcJQwJB1W4OWLZR1gdVeKRpqP517nR9pbTwgS-iN83Fl0gQw_Z32aUMfbRaPstwyatM4qrflCD53/pub?start=false&loop=false&delayms=5000" target="_blank">Accéder au benchmark</a></figcaption>
+                  </figure>
+                  <hr>
+                  <p class="text-justify p-3">Lors de nos cours portant sur l'UI/UX nous avons travaillé en groupe. Nous devions réaliser des benchmarks dans l'optique d'une refonte d'un site web. Nous avons notamment utilisé la grille de notation de Laure Sauvage et réalisé des moodboards et proposé des pistes d'améliorations.
+                  </p>
+                  <hr>
+                </div><!--fermeture col6-->
+              </div><!--fermeture row content-->
+            </div><!--fermeture col-12 section onglet5-->
+            </div><!--fermeture row section onglet5-->
+
+
+
+            <!-- ONGLET 6 - LOISIR -->
+            <div id="Loisir"></div> <!--ancre-->
+            <div class="row text-center my-3 section6">
+              <div class="col-12">
+                <div class="row title">
+                  <div class="col-12">
+                    <h2 class="my-3">Mes Passions et Loisirs</h2>
+                  </div> <!--fermture col-12 title-->
+                </div><!--fermture row title-->
+
+                <!--Roller Derby-->
+                <div class="row content mt-4">
+                    <div class="col-md-4">
+                      <img src="img/rollerderby.jpg" alt="Deux photos de moi pratiquant du roller derby, en échauffement et en jeu, by Cédric Hervaud et Vincent Micheletti Picture" class="img-fluid p-2">
+                    </div> <!--fermeture colmd4-->
+                    <div class="col-md-8">
+                      <hr>
+                      <h5 class="my-2">Roller Derby</h5>
+                      <p class="text-justify p-3">Depuis 2015 je pratique le Roller Derby. Il s'agit d'un sport d'équipe, de contact et d'agilité en patins à roulettes.</p>
+                      <p class="text-justify p-3">Je suis actuellement joueuse chez les Paris Roller Girls et je suis très impliquée dans la vie associative de l'équipe : capitaine de l'équipe B, coach de l'équipe C. J'ai trouvé dans le Roller Derby un sport qui me permet de canaliser mon énergie, de grandir et de m'affirmer.</p>
+                      <p class="text-justify p-3">Le Roller Derby est un sport encore jeune, en constante évolution, qui demande de toujours réfléchir à de nouvelles stratégies et d'apprendre de nouvelles choses, c'est ce qui le rend si passionnant à mes yeux.</p>
+                    </div><!--fermeture colmd8-->
+                  </div><!--fermeture row rollerderby-->
+          
+                  <!--Aquarelle-->
+                  <div class="row p-2">
+                    <div class="col-md-8 align-items-center">
+                      <hr>
+                      <h5 class="p-3">Aquarelle</h5>
+                      <p class="text-justify p-3">À mes heures perdues, j'aime me poser devant une feuille pour dessiner. Cela fait quelques années que je dessine de manière occasionnelle.</p>
+                      <p class="text-justify p-3">J'aime particulièrement l'aquarelle parce que j'adore sa nature assez aléatoire qui fait que lorsqu'on pose le pinceau sur la feuille, on ne sait jamais vraiment quel sera le résultat. </p>
+                      <p class="text-justify p-3">Jouer avec les textures de papiers, le degrès d'humidité de la feuille, les différentes dilutions de la peinture... Il y a une infinité de possibilités.</p>
+                      <p class="text-justify p-3">J'aime aussi qu'on puisse passer de couleurs douces et pastels à des couleurs plus vives. Ce médium me permet de laisser libre cours à mon imagination et à ma créativité.</p>
+                    </div> <!--fermeture colmd8-->
+                    <div class="col-md-4">
+                      <img src="img/aquarelle.jpg" alt="Moi en train de peindre par Julien Maestracci et un dessin que j'ai fait d'un dragon endormi au milieu d'une clairière" class="img-fluid p-2">
+                    </div><!--fermeture colmd4-->
+                  </div><!--fermeture row aquarelle-->
+              </div><!--fermeture col 12 onglet 6-->
+            </div><!--fermeture row section onglet6-->
+
+
+
+            <!-- ONGLET 7 - CONTACT -->
+            <div id="Contact"></div> <!--ancre-->
+            <div class="row text-center p-2 section7" >
+              <div class="col-12">
+                <div class="row title">
+                  <div class="col-12">
+                    <h2 class="my-3">Me Contacter</h2>
+                  </div> <!--fermeture col title-->
+                </div><!--fermeture row title-->
+                <div class="row content">
+                  <div class="col-12">
+                    <form>
+                        <div class="row">
+                          <div class="col-md-6">
+                            <div class="row">
+                              <div class="col-3 text-right">
+                                <label for="prenom">Prénom</label>
+                              </div>
+                              <div class="col-3 text-left">
+                                <input id="prenom" name="prenom" title="Merci d'écrire ici votre prénom">
+                              </div>
+                            </div>
+                          </div>
+                        <div class="col-md-6">
+                          <div class="row">
+                            <div class="col-3 text-right">
+                              <label for="nom">Nom</label>
+                            </div>
+                            <div class="col-3 text-left">
+                              <input id="nom" name="nom" title="Merci d'écrire ici votre Nom">
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      
+                      <div class="row">
+                        <div class="col-md-6">
+                          <div class="row">
+                            <div class="col-3 text-right">
+                              <label for="address">E-mail</label>
+                            </div>
+                            <div class="col-3 text-left">
+                              <input type="email" id="address" name="address" title="Merci de saisir une adresse e-mail où vous contacter en retour">
+                            </div>
+                          </div>
+                        </div>
+                      <div class="col-md-6">
+                        <div class="row">
+                          <div class="col-3 text-right">
+                            <label for="tel" class="text-left">Téléphone</label>
+                          </div>
+                          <div class="col-3 text-left">
+                            <input id="tel" class="text-right" name="address" title="Vous pouvez également me laisser un numéro de téléphone pour vous joindre">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                        <div class="form-row">
+                          <div class="col-10 mx-auto">
+                            <label class="text-left" for="txt">N'hésitez pas à m'écrire</label>
+                            <textarea id="txt" name="message" placeholder="Votre message"></textarea>
+                          </div>
+                        </div>
+
+                            <input onclick="envoi()" type="button" value="Envoyer">
+                    </form>
+                  </div><!--fermeture col-->
+                </div><!--fermturerow content-->
+               </div><!--fermture col onglet 7 -->
+            </div><!--fermeture onglet7-->
+  </div> <!--Fermeture Container corps de la page-->
+
+            <!--FOOTER DE LA PAGE-->
+
+              <!--Animation JS-->
+    <footer>
+      <div id="carrejaune"></div>
+      <div id="carreorange"></div>
+      <div id="carrerouge"></div>
+      <div id="carrerose"></div>
+      <div id="carreviolet"></div>
+      <div id="carrebleu"></div>
+      <div id="carrevert"></div>
+    </footer>
+              <!--Liens utiles/Mentions légales-->
+    <div class="container">
+      <div class="row footer text-center">
+        <div class="col-3 pb-3"><a href="credits.html" target="_blank">Crédits</a></div>
+        <div class="col-6 pb-3"><a href="progression.html" target="_blank">Réalisation Chloé ASSASSIN - Avril 2020</a></div>
+        <div class="col-3 pb-3"><a href="mentionslegales.html" target="_blank">Mentions Légales</a></div>
+      </div><!--fermeture row footer-->
+  </div><!--fermeture container footer-->
+
+  <script src="js/script.js"></script>
+</body>
+</html>
